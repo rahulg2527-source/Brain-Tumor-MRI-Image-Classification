@@ -13,7 +13,7 @@ from PIL import Image
 
 BASE_DIR = Path(__file__).resolve().parent
 
-MODEL_PATH = BASE_DIR / "brain_tumor_efficientnet_final.keras"
+MODEL_PATH = BASE_DIR / "brain_tumor_efficientnet_final_24mb.keras""
 CLASS_NAMES_PATH = BASE_DIR / "class_names.json"
 
 IMG_SIZE = (224, 224)
